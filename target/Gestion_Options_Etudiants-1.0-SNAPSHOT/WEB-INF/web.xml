@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1"
+         metadata-complete="false">
+
+    <display-name>Gestion_Options_Etudiants</display-name>
+
+    <!--
+        Aucun servlet n'est déclaré ici : Jersey enregistre automatiquement
+        le servlet JAX-RS à partir de la classe annotée @ApplicationPath("rest")
+        (tn.esprit.rest.RestActivator). metadata-complete="false" garantit que
+        les annotations sont bien scannées.
+    -->
+</web-app>
